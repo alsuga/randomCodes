@@ -1,0 +1,19 @@
+{
+  "name": "parser",
+  "version": "1.0.0",
+  "description": "Homework",
+  "scripts": {
+    "build": "babel src -d lib",
+    "start": "node lib"
+  },
+  "main": "index.js",
+  "author": "Alejandro Suarez, Daniel Diaz",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
